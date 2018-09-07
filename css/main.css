@@ -47,7 +47,7 @@ header a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../documents/jumbotronphoto2.jpg');
+  background-image: url('../documents/website_photo.jpg');
   background-size: cover;
   background-position: center;
   /*background-color: rgb(150,150,200); */
