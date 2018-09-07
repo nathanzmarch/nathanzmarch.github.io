@@ -1,0 +1,183 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #ffffff;
+  /* background-color: #ffffff; */
+}
+
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+header .container{
+  padding: 0 0 0 0;
+  border-bottom: 1px solid #9099A2;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../documents/jumbotronphoto2.jpg');
+  background-size: cover;
+  background-position: center;
+  /*background-color: rgb(150,150,200); */
+  /*color: rgb(150,150,200);*/
+  height: 600px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: -30;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+.container{
+  width: 100%;
+}
+
+.block {
+  /* border-bottom: 1px solid #9099A2; */
+  padding: 5rem !important;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background-color: #96858f;
+}
+#aboutme{
+  background-color: #4885ed;
+}
+#education{
+  background-color: #f4c20d;
+}
+#skills{
+  background-color: #db3236;
+}
+#experience{
+  background-color: #3cba54;
+}
+#projects{
+  background-color: #2d2d2d;
+}
+#about-nav{
+  font-family: 'Montserrat', sans-serif;
+  color: #3cba54;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+h2,
+h3,
+h4,
+li,
+p{
+  color: #ffffff;
+}
+img{
+  max-height: 300px;
+  max-width: 300px;
+}
+.devicon-cplusplus-plain {
+  font-size: 60px;
+  fill: #4691f6;
+}
+.devicon-cplusplus-plain path {
+  fill: #4691f6;
+}
+.devicon {
+  max-width: 4em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+/* if you want to change the original color */
+.devicon path {
+  fill: #ffffff;
+}
+
+.change-icon-color path {
+  fill: #d2d2d2;
+}
